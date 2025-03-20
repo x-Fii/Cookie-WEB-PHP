@@ -1,0 +1,20 @@
+/* Bootstrap 4.4.1 styles will be imported first */
+@import url('bootstrap-4.4.1.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer base {
+  /* Additional base styles can go here */
+}
